@@ -47,3 +47,11 @@ if (containsAllVowels) {
 } else {
     console.log("The string does not contain all vowels.");
 }
+
+
+
+// Task-5:
+// Capitalize Every first Letter of each word in a String
+let countrys = "bang la desh";
+let result = countrys.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
+console.log(result);
